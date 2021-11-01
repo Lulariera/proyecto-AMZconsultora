@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>AMZconsultora</title>
+        <!--estilo CSS-->
+        <link rel="stylesheet" href="style.css">
+        <!--logo favicom-->
+        <link rel="shortcut icon" href="./IMG/LogoFavicom.png" type="image/x-icon">
+        <!-- estyle-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!--fuente-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+<body>
+<!---- contenedor NAV!----><!--Logo y nav-->
+<header>
+    <div class="logo">
+    <a href="">
+        <img src="./IMG/AMZ_logo.png" alt="">
+    </a>
+</div>
+    <nav>
+        <ul> 
+            <li><a href="/">INICIO</a></li>
+            <li><a href="/nosotros.html">NOSOTROS</a></li>
+            <li><a href="/servicios.html">SERVICIOS</a></li>
+            <li><a href="/simulacros.html">SIMULACROS</a></li>
+            <li><a href="/Contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+</header>
+<!---------Tabla de contacto----------->
+<section class="contenedorTabla"> 
+    <div class="cont">
+        <p>Contactanos!!</p>
+    </div>
+    <div class="cajaGeneral"> 
+        <form action="contacto" class="caja">
+        <fieldset class="formulario">
+        <legend class="contacto">CONTACTO</legend>
+        <input type="text"name=Nombre id="Nombre" placeholder="Escriba su nombre" class="nombre"> 
+        <input type="text" name=Apellido id="Apellido:" placeholder="Escriba su apellido" class="apellido">
+        <input type="text" name="Email" id="Email"placeholder="Escriba su correo electronico" class="email">
+        <div>Desea saber más sobre</div>
+            <select name="¿Que desea saber?" id="¿Que desea saber?" class="select">
+            <option value="Cursos">Cursos</option>
+            <option value="Donde estamos">Donde estamos</option>
+            <option value="Brigada">Brigada</option>
+            <option value="Otros">Otros</option>
+            </select>
+        <div>Acepta terminos y condiciones</div>
+            <input type="checkbox" name="aceptar" value="1">
+            <textarea name="mensaje" placeholder="Escriba aqui su mensaje" id="Mensaje" cols="30" rows="10"></textarea>
+            <input type="submit" value="Enviar" id="boton">
+            <input type="reset" value="Limpiar formulario"id="boton">
+            </fieldset>
+        </div>
+        </form>
+    </section>
+<!---- footer: datos de la empresa- redes sociales-->
+<footer class="footer">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <div class="TitulosFooter">
+        <p class="p">Chacabuco 1182</p>
+        <p class="p">Granadero Baigorria – Santa Fe- Argentina</p>
+        <p class="p">Tel: (+54) 0341-4710773</p>
+        <p class="p">Celular (+549) 0341-152145800</p>
+        <p class="p">Correo electrónico: amzconsultora@gmail.com</p>
+    </div>
+    <div class="Redes">
+        <a href="https://instagram.com/amz.rescate?utm_medium=copy_link">
+            <img src="./svg/bxl-instagram.svg" alt="">
+        </a>
+        <a href="https://www.facebook.com/amz.consultora">
+            <img src="./svg/bxl-facebook.svg" alt="">
+        </a>
+        <a href="https://www.linkedin.com/in/amz-consultora-64a993172/" target="blank">
+            <img src="./svg/bxl-linkedin.svg" alt="">
+        </a>
+    </div>
+</footer>
+        </body>
+        </html>
