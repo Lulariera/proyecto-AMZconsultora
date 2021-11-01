@@ -6,6 +6,13 @@
 body{
 background: black;
 max-width: 1400px;
+margin: auto;
+}
+@media only screen and (max-width: 300px) {
+    /* For mobile phones: */
+    body{
+    width: 100%;
+    }
 }
 /*--------------Header Nav-------------*/
 header {
@@ -95,6 +102,7 @@ main{
     font-size: 20px;
     text-align: center;
 }
+
 /*----------Noticias destacadas--------------------*/
 .neon {
     position: relative;
@@ -179,15 +187,20 @@ main{
 
 /*------------------Banner y logo de clientes-------------*/
 .section{
+    max-width: 1400px;
     width: 100%;
     margin: auto;
 }
 .banner{
+    max-width: 1400px;
+    margin: auto;
     width: 100%;
     height: 350px;
     background: url(./IMG/Banner.png);
 }
 .clientes {
+    max-width: 1400px;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(6,2fr);
     grid-template-areas: img img img img img img;
@@ -197,6 +210,7 @@ main{
 
 /*-----------------Footer-----------*/
 footer{
+    margin: auto;
     max-width: 1400px;
     width: 100%;
     margin-top: 80px;
@@ -221,6 +235,8 @@ footer{
 /*-------------------------------- Sección Nosotros----------------------------*/
 /*------Section-Mision---------*/
 .SectionNosotros{
+    max-width: 1400px;
+    margin: auto;
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
@@ -255,6 +271,8 @@ footer{
 
 /*--------------------Sección-Serviios----------------------*/
 .SectionServicios{
+    max-width: 1400px;
+    margin: auto;
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
@@ -307,6 +325,8 @@ footer{
     height: 40px;
 }
 .DivSimulacros{
+    max-width: 1400px;
+    margin: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -325,7 +345,7 @@ footer{
     background-image: url(./IMG/fotoIndustria.jpeg);
     background-size: 100vw 100vh;
     background-attachment: fixed;
-    margin: 0;
+    margin: auto;
 }
 form{
     width: 450px;
